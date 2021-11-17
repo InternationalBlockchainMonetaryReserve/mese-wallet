@@ -1,0 +1,10 @@
+.tabs {
+  .inactive{
+    color: grey;
+  }
+
+  a:hover {
+    color: white !important;
+    border-bottom-color: white !important;
+  }
+}

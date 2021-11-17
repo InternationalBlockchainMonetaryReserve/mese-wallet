@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should match snapshot 1`] = `
+<div
+  className="main-view mese-background"
+  style="flex-direction: column;"
+>
+  <div
+    className="px-5"
+  >
+    <section
+      className="hero has-text-centered mb-6"
+    >
+      <div
+        className="pt-6 mt-5"
+      >
+        <ContentLogo />
+      </div>
+      <p
+        className="mese-text mese-14 mese-bold-900 is-6 mb-0 has-text-white"
+        style="text-align: start;"
+      >
+        WELCOME BACK!
+      </p>
+    </section>
+    <section>
+      <p
+        className="mese-text mese-12"
+        style="margin-top: 40px"
+      >
+        Password
+      </p>
+      <input
+        className="input mese-input mese-password mt-1"
+        id="enterPassword"
+        onInput={[Function]}
+        onKeyDown={[Function]}
+        type="password"
+        value=""
+      />
+    </section>
+  </div>
+  <div
+    className="mt-6 mx-5 mb-3"
+  >
+    <button
+      className="button is-fullwidth is-outlined mese-btn-outlined is-loading"
+      disabled={true}
+      id="login"
+      onClick={[Function]}
+    >
+      <span
+        className="mese-text mese-12"
+      />
+    </button>
+  </div>
+</div>
+`;

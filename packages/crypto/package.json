@@ -1,0 +1,21 @@
+{
+  "name": "mese-crypto",
+  "version": "1.6.1",
+  "author": "http://undercurrent.tech",
+  "description": "Cryptographic wrapper for saving and retrieving extention information in MESE.io",
+  "license": "",
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "ts-loader": "^7.0.5",
+    "typescript": "^4.4.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "build": "npm run clean && webpack",
+    "clean": "rm -rf ./dist/",
+    "test": "jest"
+  }
+}

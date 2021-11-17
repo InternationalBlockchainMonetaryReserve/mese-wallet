@@ -1,0 +1,44 @@
+.divConnected {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  height: 20px;
+  border: 0.5px solid #fcfcfc;
+  border-radius: 4px;
+
+  &.settings-item {
+    border: none !important;
+    border-radius: 0px !important;
+    height: auto !important;
+    padding: 3px 9px 3px 3px !important;
+  }
+
+  span {
+    color: white;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+.dotGreen {
+  width: 8px;
+  height: 8px;
+  background: #6fce58;
+  border-radius: 50%;
+  margin-right: 5px;
+
+  &.settings-item {
+    width: 5px;
+    height: 5px;
+  }
+
+  &.not-connected {
+    background: transparent;
+    border: 1px solid white;
+  }
+}

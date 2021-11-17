@@ -1,0 +1,22 @@
+{
+  "name": "@mese/dapp",
+  "version": "1.6.1",
+  "author": "http://undercurrent.tech",
+  "description": "Sample DAPP for use with MESE.io",
+  "scripts": {
+    "build": "npm run clean && webpack",
+    "clean": "rm -rf ./dist/",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "ts-loader": "^7.0.5",
+    "typescript": "^4.4.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.14",
+    "ts-jest": "^26.3.0"
+  }
+}

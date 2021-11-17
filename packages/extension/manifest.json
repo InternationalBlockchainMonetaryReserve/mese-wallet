@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "MESE.io Wallet",
+  "author": "http://undercurrent.tech",
+  "version": "1.6.1",
+  "description": "MESE.io Wallet Extension. Send & Receive ALGO and Algorand Standard Assets. Sign DApp Transactions",
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "MESE.io Wallet",
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-r3HgVicK23eFlaBe+glyMCfP98WwT3i3bmq8FxshKMY='; object-src 'self'",
+  "web_accessible_resources": ["mese.min.js"],
+  "permissions": ["storage", "tabs"]
+}
